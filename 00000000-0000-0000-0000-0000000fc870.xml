@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<TeamMentor_Article Metadata_Hash="0" Content_Hash="0">
+  <Metadata>
+    <Id>00000000-0000-0000-0000-0000000fc870</Id>
+    <Library_Id>c037d0d2-0617-44f3-b846-21dc3d02c4f8</Library_Id>
+    <Title>Require SSL</Title>
+    <Category>Input and Data Validation</Category>
+    <Phase>Implementation</Phase>
+    <Technology>PHP</Technology>
+    <Type>Landing Page</Type>
+    <DirectLink>Require SSL</DirectLink>
+    <Author />
+    <Priority />
+    <Status />
+  </Metadata>
+  <Content Sanitized="false" DataType="wikitext">
+    <Data><![CDATA[==Description==
+
+SSL should be used to protect any sensitive data in transit. Some applications don't use SSL even during authentication or when transmitting sensitive data. An attacker may be able to intercept data that is sent over the network unencrypted. This vulnerability applies to all applications that send sensitive data over the network. To prevent this problem, use SSL for all sensitive communications, configure SSL to use strong cipher suites, and use valid certificates. To check for this issue, use the application and verify that SSL is used for any sensitive communications.
+
+
+==Impact==
+
+==Countermeasures==
+
+Use SSL for all sensitive communications:
+
+Configure SSL to use strong cipher suites:
+
+Use valid certificates:
+
+
+==Checklists==
+
+SSL is used for all sensitive communications:
+
+SSL is configured to use strong cipher suites:
+
+Valid certificates are used:
+
+==Additional Resources==]]></Data>
+  </Content>
+</TeamMentor_Article>

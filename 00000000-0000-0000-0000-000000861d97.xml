@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<TeamMentor_Article Metadata_Hash="0" Content_Hash="0">
+  <Metadata>
+    <Id>00000000-0000-0000-0000-000000861d97</Id>
+    <Library_Id>c037d0d2-0617-44f3-b846-21dc3d02c4f8</Library_Id>
+    <Title>Sensitive Cookie in HTTPS Session without Secure Attribute</Title>
+    <Category>Input and Data Validation</Category>
+    <Phase>Implementation</Phase>
+    <Technology>PHP</Technology>
+    <Type>Landing Page</Type>
+    <DirectLink>Sensitive Cookie in HTTPS Session without Secure Attribute</DirectLink>
+    <Author />
+    <Priority />
+    <Status />
+  </Metadata>
+  <Content Sanitized="false" DataType="wikitext">
+    <Data><![CDATA[==Description==
+
+When a Cookie has the Secure flag set, that cookie will not be sent over a non-encrypted connection. If the Secure attribute is not set on a sensitive cookie, the cookie may be sent in plaintext and an attacker may intercept it. If an attacker is able to intercept a session cookie, he can impersonate an authenticated user. This vulnerability affects web applications that use authentication. To prevent this problem, set Secure and HTTP-Only flags on all sensitive cookies and send session cookies over HTTPS. To check for this flaw, find all code that stores session cookies and make sure that it sets the Secure flag.
+
+==Impact==
+
+Sending a sensitive cookie in plaintext creates a risk that an eavesdropping attacker may intercept it and use it to hijack the user's session. 
+
+==Countermeasures==
+
+Set Secure and HTTP-Only flags on all sensitive cookies:
+
+Send session cookies only over HTTPS:
+
+==Checklists==
+
+Secure and HTTP-Only flags are set on all sensitive cookies:
+
+Session cookies are sent only over HTTPS:
+
+==Additional Resources==
+]]></Data>
+  </Content>
+</TeamMentor_Article>

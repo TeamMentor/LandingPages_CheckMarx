@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<TeamMentor_Article Metadata_Hash="0" Content_Hash="0">
+  <Metadata>
+    <Id>00000000-0000-0000-0000-00000030eec8</Id>
+    <Library_Id>c037d0d2-0617-44f3-b846-21dc3d02c4f8</Library_Id>
+    <Title>XPath Injection</Title>
+    <Category>Input and Data Validation</Category>
+    <Phase>Implementation</Phase>
+    <Technology>PHP</Technology>
+    <Type>Landing Page</Type>
+    <DirectLink>XPath Injection</DirectLink>
+    <Author />
+    <Priority />
+    <Status />
+  </Metadata>
+  <Content Sanitized="false" DataType="wikitext">
+    <Data><![CDATA[==Description==
+
+XPath injection is a type of vulnerabilities that allows attackers to execute arbitrary queries on XML databases. XPath injection vulnerabilities are similar to SQL injection vulnerabilities, but target XML databases instead of SQL databases. XPath injection vulnerabilities are often more dangerous than SQL injection attacks, because permissions are not enforced and the malicious queries can access every part of the XML documents. 
+
+==Impact==
+
+XPath injection attacks may allow retrieving, manipulating, or destroying data stored in XML documents. 
+
+==Countermeasures==
+
+The following TeamMentor articles describe effective counter-measures against XPath injection vulnerabilities: 
+
+==Checklists==
+
+The following checklist items can help make sure that effective counter-measures against XPath injection vulnerabilities have been implemented: 
+
+==Additional Resources==
+
+For more information about XPath injection, see https://www.owasp.org/index.php/XPATH_Injection]]></Data>
+  </Content>
+</TeamMentor_Article>
