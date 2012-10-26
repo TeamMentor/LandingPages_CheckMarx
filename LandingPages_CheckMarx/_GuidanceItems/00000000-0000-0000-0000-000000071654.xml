@@ -21,6 +21,8 @@ Applications that use cryptography need a method for managing keys. One of the s
 
 ==Impact==
 
+An attacker that has access to the application code is able to recover any hard-coded cryptographic keys. If the attacker gets access to the data encrypted with those keys, he will be able to decrypt them. The trouble is that if the attacker is able to get the encrypted data, he can probably get the application code as well. Therefore, using hard-coded cryptographic keys essentially defeats the purpose of using encryption in the first place.
+
 
 ==Countermeasures==
 

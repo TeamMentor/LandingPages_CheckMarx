@@ -21,6 +21,8 @@ SSL should be used to protect any sensitive data in transit. Some applications d
 
 ==Impact==
 
+The exact impact depends on the type of data that the attacker is able to intercept. In some cases, the attacker may be able to intercept confidential information. More commonly, the attacker will try to intercept usernames and passwords to gain access to the application. Once the attacker has valid usernames and passwords, he can access and modify the users' data in the application. The attacker is also able to impersonate the users whose usernames and passwords he has acquired. If the attacker intercepts the administrator's username and password, he may gain full control of the application.
+
 ==Countermeasures==
 
 Use SSL for all sensitive communications:

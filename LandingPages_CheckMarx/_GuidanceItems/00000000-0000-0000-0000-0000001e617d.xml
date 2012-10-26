@@ -20,7 +20,7 @@ Applications that use authentication need a method for storing credentials. Cred
 
 ==Impact==
 
-An attacker with access to application code gains valid credentials.
+An attacker with access to application code gains valid credentials. Usually hard-coded credentials are used to provide a default administrative account that is then used to set up the rest of the application. Once the attacker has such administrative credentials, he usually has full control of the application.
 
 ==Countermeasures==
 

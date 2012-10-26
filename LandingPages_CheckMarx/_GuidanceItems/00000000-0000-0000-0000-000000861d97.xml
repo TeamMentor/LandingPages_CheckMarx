@@ -20,7 +20,7 @@ When a Cookie has the Secure flag set, that cookie will not be sent over a non-e
 
 ==Impact==
 
-Sending a sensitive cookie in plaintext creates a risk that an eavesdropping attacker may intercept it and use it to hijack the user's session. 
+Sending a sensitive cookie in plaintext creates a risk that an eavesdropping attacker may intercept it. Once the attacker has intercepted a session cookie, he can use it to hijack the user's session. Hijacking the user's session allows the attacker to impersonate that user. If the attacker hijacks an administrator's session, the attacker may take full control of the application.
 
 ==Countermeasures==
 

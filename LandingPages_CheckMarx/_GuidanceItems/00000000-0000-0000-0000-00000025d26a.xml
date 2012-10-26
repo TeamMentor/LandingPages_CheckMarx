@@ -20,7 +20,7 @@ Many web applications use URL redirection as a feature to direct a user to anoth
 
 ==Impact==
 
-An attacker may be able to leverage this vulnerability to trick users into entering sensitive information into a malicious website while seemingly navigating within a trusted website. 
+Open redirects allow an attacker to send users to a malicious site via a legitimate-looking URL. Many users are tricked by the legitimate-looking URL into thinking that they are browsing a trusted site. The malicious site may have an authentic looking login page tempting unsuspecting users into entering their usernames and passwords into it. When personal information is entered into the malicious login page, it is recorded for the attacker's use. Once the attacker has valid user credentials, he can access or modify users' data in the application. If the attacker is able to take over an administrative account, he may gain full control of the application.
 
 ==Countermeasures==
 
