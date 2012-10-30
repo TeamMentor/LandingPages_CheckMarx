@@ -6,7 +6,7 @@
     <Title>Sensitive Cookie in HTTPS Session without Secure Attribute</Title>
     <Category>Input and Data Validation</Category>
     <Phase>Implementation</Phase>
-    <Technology>PHP</Technology>
+    <Technology>Java</Technology>
     <Type>Landing Page</Type>
     <DirectLink>Sensitive Cookie in HTTPS Session without Secure Attribute</DirectLink>
     <Author />
@@ -25,16 +25,21 @@ Sending a sensitive cookie in plaintext creates a risk that an eavesdropping att
 ==Countermeasures==
 
 Set Secure and HTTP-Only flags on all sensitive cookies:
+* [[9b7e6e63-c37c-403b-a2f5-60b1e1abbb0b|Set the Secure And HTTPOnly Flags on All Sensitive Cookies]]
 
 Send session cookies only over HTTPS:
+* [[6012e717-6ba6-4380-8ca8-2f0b7c69d717|Protect Session Cookies]]
 
 ==Checklists==
 
 Secure and HTTP-Only flags are set on all sensitive cookies:
+* [[d8922a46-a943-4ae0-b8af-b88eb01d6997|The Secure And HTTPOnly Flags Are Set on All Sensitive Cookies]]
 
 Session cookies are sent only over HTTPS:
+* [[59132a30-2bae-45e9-9d85-8de26441be29|Session Cookies Are Protected]]
 
 ==Additional Resources==
-]]></Data>
+
+* For more information about this vulnerability type, see http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Sensitive_Cookie_in_HTTPS_Session_Without_%27Secure%27_Attribute]]></Data>
   </Content>
 </TeamMentor_Article>

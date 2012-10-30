@@ -6,7 +6,7 @@
     <Title>Client-Side Only Validation</Title>
     <Category>Input and Data Validation</Category>
     <Phase>Implementation</Phase>
-    <Technology>PHP</Technology>
+    <Technology>ASP.NET 4</Technology>
     <Type>Landing Page</Type>
     <DirectLink>Client-Side Only Validation</DirectLink>
     <Author />
@@ -25,11 +25,16 @@ The exact impact of this vulnerability depends exactly on what kind of data is b
 ==Countermeasures==
 
 Implement security controls on the server-side:
+* [[14d4d65c-8bba-4fef-8261-e76895882942|Do Not Rely on Client-side Validation]]
+* [[8774a92a-2008-488d-8bcf-20b365b8a752|Perform Authentication on the Server]]
 
 ==Checklists==
 
 Security controls are implemented on the server-side:
+* [[eda2c482-6e7f-4370-9d2f-deeca845c82b|Client-side Validation Is Not Relied On]]
+* [[dc03ac19-d8b9-4af2-b821-93766afa23d3|Authentication Is Performed on the Server]]
 
-==Additional Resources==]]></Data>
+==Additional Resources==
+* For more information about this vulnerability type, please see https://www.owasp.org/index.php/Validation_performed_in_client]]></Data>
   </Content>
 </TeamMentor_Article>

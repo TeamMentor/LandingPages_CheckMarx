@@ -6,7 +6,7 @@
     <Title>Unchecked Error Condition</Title>
     <Category>Input and Data Validation</Category>
     <Phase>Implementation</Phase>
-    <Technology>PHP</Technology>
+    <Technology>ASP.NET 4</Technology>
     <Type>Landing Page</Type>
     <DirectLink>Unchecked Error Condition</DirectLink>
     <Author />
@@ -23,22 +23,26 @@ Unchecked error conditions may allow attacks to go unnoticed. Checking error con
 
 ==Countermeasures==
 
-Implement a centralized error handling subsystem:
-
 Use a global exception handler:
+* [[461370b3-66e7-4ac3-900f-7e2f757c54a8|Use a Global Exception Handler for Unhandled Exceptions]]
+
+Use structured exception handling:
+* [[afb7610c-53ab-49dd-a425-f3e3272f7749|Use Structured Exception Handling]]
 
 Log error information:
 
 ==Checklists==
 
-A centralized error handling subsystem:
-
 A global exception handler is used:
+* [[f0c2bed2-b530-46bc-9e64-8041e0def190|Global Error Handlers Are Used to Catch Unhandled Exceptions]]
+
+Structured exception handling is used:
+* [[bf298d0e-9433-44c1-b9af-66ba69662d18|Structured Exception Handling Is Used]]
 
 Error information is logged:
 
 ==Additional Resources==
 
-http://www.cvedetails.com/cwe-details/391/Unchecked-Error-Condition.html]]></Data>
+* For the CWE page about this vulnerability, see http://www.cvedetails.com/cwe-details/391/Unchecked-Error-Condition.html]]></Data>
   </Content>
 </TeamMentor_Article>

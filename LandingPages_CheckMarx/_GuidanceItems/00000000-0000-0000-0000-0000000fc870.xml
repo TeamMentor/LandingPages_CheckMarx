@@ -6,7 +6,7 @@
     <Title>Require SSL</Title>
     <Category>Input and Data Validation</Category>
     <Phase>Implementation</Phase>
-    <Technology>PHP</Technology>
+    <Technology>ASP.NET 4</Technology>
     <Type>Landing Page</Type>
     <DirectLink>Require SSL</DirectLink>
     <Author />
@@ -26,19 +26,22 @@ The exact impact depends on the type of data that the attacker is able to interc
 ==Countermeasures==
 
 Use SSL for all sensitive communications:
+* [[5bff1c23-47fc-46ad-84bd-130b822d9611|Encrypt Communication Links]]
 
 Configure SSL to use strong cipher suites:
 
 Use valid certificates:
-
+* [[8df9fe45-29b6-47c6-81c5-6248930d303c|Use a Valid SSL Certificate]]
 
 ==Checklists==
 
 SSL is used for all sensitive communications:
+* [[edcb9c8f-7ab4-4b24-aa2e-f186f3903332|All Sensitive Communications Are Encrypted]]
 
 SSL is configured to use strong cipher suites:
 
 Valid certificates are used:
+* [[e8270fbe-a9e2-4504-a4af-688d3462cb0e|A Valid SSL Certificate Is Used]]
 
 ==Additional Resources==]]></Data>
   </Content>

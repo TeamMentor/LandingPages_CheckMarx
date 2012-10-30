@@ -26,16 +26,14 @@ The exact impact of this vulnerability depends on the sensitive data stored in t
 
 Don't store sensitive data in persistent cookies:
 
-
 ==Checklists==
 
 Sensitive data is not stored in persistent cookies:
 
 ==Additional Resources==
 
+*For the CWE page about this vulnerability, see http://cwe.mitre.org/data/definitions/539.html
 
-http://cwe.mitre.org/data/definitions/539.html
-
-http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Information_Leak_Through_Persistent_Cookies]]></Data>
+*For more information about this vulnerability, see http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Information_Leak_Through_Persistent_Cookies]]></Data>
   </Content>
 </TeamMentor_Article>

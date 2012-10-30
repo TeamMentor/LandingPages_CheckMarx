@@ -6,7 +6,7 @@
     <Title>Use of Hard-coded Password</Title>
     <Category>Input and Data Validation</Category>
     <Phase>Implementation</Phase>
-    <Technology>PHP</Technology>
+    <Technology>ASP.NET 4</Technology>
     <Type>Landing Page</Type>
     <DirectLink>Use of Hard-coded Password</DirectLink>
     <Author />
@@ -26,18 +26,14 @@ Once the attacker has recovered the hard-coded password, he can use it to access
 ==Countermeasures==
 
 Provide a secure administrative interface that allows changing passwords:
-* [[edd3e5fa-44a1-402a-820f-1860e9361fd1|Protect the Account Management Functions]]
 
 Store passwords securely:
-* [[62593693-31c2-441a-b6f8-4fc47acac06d|Hash And Salt Passwords]]
 
 ==Checklists==
 
 A secure administrative interface that allows changing passwords is provided:
-* [[37e2ff71-71b6-47e0-b6f6-53c8d4e81544|The Account Management Functions Are Protected]]
 
 Passwords are stored securely:
-* [[3daed10e-b47a-40fe-b75d-3c68532c1f0d|Passwords Are Hashed And Salted for Storage]]
 
 ==Additional Resources==
 

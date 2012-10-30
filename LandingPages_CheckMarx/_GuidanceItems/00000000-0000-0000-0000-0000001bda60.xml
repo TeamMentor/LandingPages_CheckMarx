@@ -28,15 +28,21 @@ Cross-Site Scripting vulnerabilities allow an attacker to execute malicious scri
 ==Countermeasures==
 
 Validate all input:
+* [[c0a4f56c-1e8c-4d3a-97e2-fc9e969d5d52|Use Positive Input Validation]]
 
 Encode input included in output:
+* [[a0ff8de9-7a67-43f2-a64e-9efde8115b6d|Sanitize All Displayed Untrusted Data]]
 
 ==Checklists==
 
 All input is validated:
+* [[d4129497-3a66-44d1-881e-e6f004af2e0d|Positive Input Validation Is Used]]
 
 Input included in output is encoded:
+* [[18bb5583-773d-450c-a072-55f0c026ba99|All Displayed Untrusted Data Is Sanitized]]
 
-==Additional Resources==]]></Data>
+==Additional Resources==
+
+* For more information about Cross-Site Scripting, see http://en.wikipedia.org/wiki/Cross-site_scripting]]></Data>
   </Content>
 </TeamMentor_Article>

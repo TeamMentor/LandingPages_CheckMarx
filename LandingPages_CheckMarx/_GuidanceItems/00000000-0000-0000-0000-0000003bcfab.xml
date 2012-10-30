@@ -26,20 +26,32 @@ Using path traversal an attacker is able to access files outside of the scope al
 
 Canonicalize all file path and name input:
 
-Validate all input: 
+Validate all input:
+* [[c0a4f56c-1e8c-4d3a-97e2-fc9e969d5d52|Use Positive Input Validation]]
 
 Perform access control checks for any filesystem access:
+* [[3f546271-6ecc-499e-bbf1-c221fdecc222|Check Access Control Permissions When Referencing Objects]]
 
+Use reference maps to access objects:
+* [[62aa729a-fafa-4327-a3b7-dc5747aed610|Use Indirect Object References]]
+
+Disable directory browsing:
+* [[aaf96d58-0037-4ea7-a8c7-0f98db813a2d|Disable Directory Browsing]]
 
 ==Checklists==
 
-All file path and name input is canonicalized
+All file path and name input is canonicalized:
 
 All input is validated:
+* [[d4129497-3a66-44d1-881e-e6f004af2e0d|Positive Input Validation Is Used]]
 
 Access control checks are performed for all filesystem access:
+* [[9a2923bd-0501-4a2c-867f-09fbc054c840|Access Control Permissions Are Checked When Referencing Objects]]
+
+Directory browsing is disabled:
+* [[6a97132c-6047-4619-bc13-fea1797a9278|Directory Browsing Is Disabled]]
 
 ==Additional Resources==
-]]></Data>
+* For more information about path traversal, please see https://www.owasp.org/index.php/Path_Traversal]]></Data>
   </Content>
 </TeamMentor_Article>

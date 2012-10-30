@@ -20,18 +20,12 @@ The product exposes a resource to the wrong control sphere, providing unintended
 
 ==Impact==
 
-
 ==Countermeasures==
-
-
 
 ==Checklists==
 
-
-
 ==Additional Resources==
 
-
-http://cwe.mitre.org/data/definitions/668.html]]></Data>
+* For the CWE page about this vulnerability type, see http://cwe.mitre.org/data/definitions/668.html]]></Data>
   </Content>
 </TeamMentor_Article>
